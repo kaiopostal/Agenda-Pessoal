@@ -23,27 +23,25 @@ class ListController extends Controller
         return response()->json('success');
     }
 
-    public function update(ListTarefa $tarefa, Request $request){
-        $tarefa->descricao = $request->descricao;
-        $tarefa->datas = $request->data;
-        $tarefa->save();
+    public function update(Int $tarefa, Request $request){
+        $tar = ListTarefa::find($tarefa);
+        $tar->descricao = $request->descricao;
+        $tar->datas = $request->data;
+        $tar->save();
 
         return response()->json('success');
     }
 
-    public function editar(ListTarefa $tarefa, Request $request){
-        dd('olá');
-        return response()->json($tarefa);
+    public function editar(Int $tarefa){
+        $tudo = ListTarefa::find($tarefa);
+
+        return response()->json($tudo);
     }
 
-    public function delete(ListTarefa $tarefa, Request $request){
-        $tarefa->delete();
+    public function delete(Int $tarefa){
+        $tar = ListTarefa::find($tarefa);
+        $tar->delete();
 
-        return response()->json('success');
-    }
-
-
-
-
-    
+        return response()->json('deletado');
+    }    
 }
