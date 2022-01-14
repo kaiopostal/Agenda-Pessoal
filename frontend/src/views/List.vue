@@ -4,7 +4,6 @@
     <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
       Adicionar nova tarefa
     </button>
-
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -16,8 +15,7 @@
           <div class="modal-body">
             <div class="row">
               <div class="col-md-6">
-                <input type="date" class="mt-4" name="datas"  v-model="data">
-                
+                <input type="date" class="mt-4" name="datas" v-model="data">
               </div>
               <div class="col-md-6">
                 <span for="descricao">Descricão</span>
@@ -27,7 +25,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            <button type="button" class="btn btn-primary" @click="addTarefa">Criar</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" @click="addTarefa">Criar</button>
           </div>
         </div>
       </div>
@@ -43,54 +41,71 @@
       </thead>
       <tbody>
         <tr v-for="tarefa in listagem" :key="tarefa.id">
-         
           <td>{{tarefa.datas}}</td>
           <td>{{tarefa.descricao}}</td>
           <td>
             <router-link :to="{name:'editar', params:{id:tarefa.id}}">
-            <b class="btn btn-outline-warning">Editar</b>
-
+              <b class="btn btn-warning">Editar</b>
             </router-link>
+            <b @click="excluir(tarefa.id)" class="btn btn-outline-danger">Excluir</b>
           </td>
         </tr>
       </tbody>
     </table>
+    <div v-if="excluido" class="alert alert-success">
+      Excluido com sucesso!
+    </div>
   </div>
 </template>
 
 <script>
-const axios = require('axios');
+
+  const axios = require('axios');
   export default {
     data() {
       return {
         listagem: [],
         descricao: '',
-        data: ''
+        data: '',
+        excluido: false
       }
     },
     methods: {
       adicionarListagem() {
-
       },
-      addTarefa(){
-        let data = {descricao:this.descricao, data:this.data}
-        axios.post('adicionar', data).then((response)=>{
-            console.log(response);
+      addTarefa() {
+        let data = {
+          descricao: this.descricao,
+          data: this.data
+        }
+        axios.post('adicionar', data).then((response) => {
+          console.log(response);
         })
         this.listagem.push(data)
+        this.getListagem()
         this.descricao = ''
         this.data = ''
+
       },
-      getListagem(){
-        axios.get('lista').then((response)=>{
+      getListagem() {
+        axios.get('lista').then((response) => {
           this.listagem = response.data
         })
+      },
+      excluir(id) {
+        confirm('Realmente deseja excluir essa tarefa?')
+        axios.delete(`delete/${id}`).then((response) => {
+          if (response.data == 'deletado') {
+            this.excluido = true
+          }
+          this.getListagem()
+        })
+
       }
     },
     created() {
       this.getListagem()
-
-    },
+    }
 
   }
 </script>
