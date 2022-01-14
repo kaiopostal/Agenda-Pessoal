@@ -1,0 +1,862 @@
+2021/11/17 09:58:35 [notice] 1#1: using the "epoll" event method
+2021/11/17 09:58:35 [notice] 1#1: nginx/1.20.0
+2021/11/17 09:58:35 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/11/17 09:58:35 [notice] 1#1: OS: Linux 5.11.0-40-generic
+2021/11/17 09:58:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/17 09:58:35 [notice] 1#1: start worker processes
+2021/11/17 09:58:35 [notice] 1#1: start worker process 31
+2021/11/17 09:58:35 [notice] 1#1: start worker process 32
+2021/11/17 09:58:35 [notice] 1#1: start worker process 33
+2021/11/17 09:58:35 [notice] 1#1: start worker process 34
+2021/11/17 10:01:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/17 10:01:28 [notice] 31#31: gracefully shutting down
+2021/11/17 10:01:28 [notice] 33#33: gracefully shutting down
+2021/11/17 10:01:28 [notice] 31#31: exiting
+2021/11/17 10:01:28 [notice] 33#33: exiting
+2021/11/17 10:01:28 [notice] 33#33: exit
+2021/11/17 10:01:28 [notice] 31#31: exit
+2021/11/17 10:01:28 [notice] 34#34: gracefully shutting down
+2021/11/17 10:01:28 [notice] 34#34: exiting
+2021/11/17 10:01:28 [notice] 34#34: exit
+2021/11/17 10:01:28 [notice] 32#32: gracefully shutting down
+2021/11/17 10:01:28 [notice] 32#32: exiting
+2021/11/17 10:01:28 [notice] 32#32: exit
+2021/11/17 10:01:28 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/11/17 10:01:28 [notice] 1#1: worker process 32 exited with code 0
+2021/11/17 10:01:28 [notice] 1#1: worker process 33 exited with code 0
+2021/11/17 10:01:28 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:01:28 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/11/17 10:01:28 [notice] 1#1: worker process 34 exited with code 0
+2021/11/17 10:01:28 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:01:28 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/11/17 10:01:28 [notice] 1#1: worker process 31 exited with code 0
+2021/11/17 10:01:28 [notice] 1#1: exit
+2021/11/17 10:03:29 [notice] 1#1: using the "epoll" event method
+2021/11/17 10:03:29 [notice] 1#1: nginx/1.20.0
+2021/11/17 10:03:29 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/11/17 10:03:29 [notice] 1#1: OS: Linux 5.11.0-40-generic
+2021/11/17 10:03:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/17 10:03:29 [notice] 1#1: start worker processes
+2021/11/17 10:03:29 [notice] 1#1: start worker process 31
+2021/11/17 10:03:29 [notice] 1#1: start worker process 32
+2021/11/17 10:03:29 [notice] 1#1: start worker process 33
+2021/11/17 10:03:29 [notice] 1#1: start worker process 34
+2021/11/17 10:03:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/17 10:03:51 [notice] 31#31: gracefully shutting down
+2021/11/17 10:03:51 [notice] 33#33: gracefully shutting down
+2021/11/17 10:03:51 [notice] 32#32: gracefully shutting down
+2021/11/17 10:03:51 [notice] 31#31: exiting
+2021/11/17 10:03:51 [notice] 33#33: exiting
+2021/11/17 10:03:51 [notice] 32#32: exiting
+2021/11/17 10:03:51 [notice] 33#33: exit
+2021/11/17 10:03:51 [notice] 31#31: exit
+2021/11/17 10:03:51 [notice] 32#32: exit
+2021/11/17 10:03:51 [notice] 34#34: gracefully shutting down
+2021/11/17 10:03:51 [notice] 34#34: exiting
+2021/11/17 10:03:51 [notice] 34#34: exit
+2021/11/17 10:03:51 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/11/17 10:03:51 [notice] 1#1: worker process 32 exited with code 0
+2021/11/17 10:03:51 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:03:51 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/11/17 10:03:51 [notice] 1#1: worker process 34 exited with code 0
+2021/11/17 10:03:51 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:03:51 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/11/17 10:03:51 [notice] 1#1: worker process 33 exited with code 0
+2021/11/17 10:03:51 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:03:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/11/17 10:03:51 [notice] 1#1: worker process 31 exited with code 0
+2021/11/17 10:03:51 [notice] 1#1: exit
+2021/11/17 10:11:16 [notice] 1#1: using the "epoll" event method
+2021/11/17 10:11:16 [notice] 1#1: nginx/1.20.0
+2021/11/17 10:11:16 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/11/17 10:11:16 [notice] 1#1: OS: Linux 5.11.0-40-generic
+2021/11/17 10:11:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/17 10:11:16 [notice] 1#1: start worker processes
+2021/11/17 10:11:16 [notice] 1#1: start worker process 31
+2021/11/17 10:11:16 [notice] 1#1: start worker process 32
+2021/11/17 10:11:16 [notice] 1#1: start worker process 33
+2021/11/17 10:11:16 [notice] 1#1: start worker process 34
+2021/11/17 10:11:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/17 10:11:38 [notice] 31#31: gracefully shutting down
+2021/11/17 10:11:38 [notice] 32#32: gracefully shutting down
+2021/11/17 10:11:38 [notice] 31#31: exiting
+2021/11/17 10:11:38 [notice] 34#34: gracefully shutting down
+2021/11/17 10:11:38 [notice] 34#34: exiting
+2021/11/17 10:11:38 [notice] 31#31: exit
+2021/11/17 10:11:38 [notice] 34#34: exit
+2021/11/17 10:11:38 [notice] 33#33: gracefully shutting down
+2021/11/17 10:11:38 [notice] 33#33: exiting
+2021/11/17 10:11:38 [notice] 33#33: exit
+2021/11/17 10:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/11/17 10:11:38 [notice] 1#1: worker process 31 exited with code 0
+2021/11/17 10:11:38 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/11/17 10:11:38 [notice] 1#1: worker process 33 exited with code 0
+2021/11/17 10:11:38 [notice] 1#1: worker process 34 exited with code 0
+2021/11/17 10:11:38 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:11:38 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/11/17 10:12:51 [notice] 1#1: using the "epoll" event method
+2021/11/17 10:12:51 [notice] 1#1: nginx/1.20.0
+2021/11/17 10:12:51 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/11/17 10:12:51 [notice] 1#1: OS: Linux 5.11.0-40-generic
+2021/11/17 10:12:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/17 10:12:51 [notice] 1#1: start worker processes
+2021/11/17 10:12:51 [notice] 1#1: start worker process 31
+2021/11/17 10:12:51 [notice] 1#1: start worker process 32
+2021/11/17 10:12:51 [notice] 1#1: start worker process 33
+2021/11/17 10:12:51 [notice] 1#1: start worker process 34
+2021/11/17 10:13:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/17 10:13:41 [notice] 32#32: gracefully shutting down
+2021/11/17 10:13:41 [notice] 32#32: exiting
+2021/11/17 10:13:41 [notice] 32#32: exit
+2021/11/17 10:13:41 [notice] 33#33: gracefully shutting down
+2021/11/17 10:13:41 [notice] 33#33: exiting
+2021/11/17 10:13:41 [notice] 33#33: exit
+2021/11/17 10:13:41 [notice] 31#31: gracefully shutting down
+2021/11/17 10:13:41 [notice] 34#34: gracefully shutting down
+2021/11/17 10:13:41 [notice] 34#34: exiting
+2021/11/17 10:13:41 [notice] 34#34: exit
+2021/11/17 10:13:41 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/11/17 10:13:41 [notice] 1#1: worker process 32 exited with code 0
+2021/11/17 10:13:41 [notice] 1#1: worker process 34 exited with code 0
+2021/11/17 10:13:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:13:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/11/17 10:13:41 [notice] 1#1: worker process 33 exited with code 0
+2021/11/17 10:13:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:13:55 [notice] 1#1: using the "epoll" event method
+2021/11/17 10:13:55 [notice] 1#1: nginx/1.20.0
+2021/11/17 10:13:55 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/11/17 10:13:55 [notice] 1#1: OS: Linux 5.11.0-40-generic
+2021/11/17 10:13:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/17 10:13:55 [notice] 1#1: start worker processes
+2021/11/17 10:13:55 [notice] 1#1: start worker process 31
+2021/11/17 10:13:55 [notice] 1#1: start worker process 32
+2021/11/17 10:13:55 [notice] 1#1: start worker process 33
+2021/11/17 10:13:55 [notice] 1#1: start worker process 34
+2021/11/17 10:23:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/17 10:23:03 [notice] 32#32: gracefully shutting down
+2021/11/17 10:23:03 [notice] 34#34: gracefully shutting down
+2021/11/17 10:23:03 [notice] 32#32: exiting
+2021/11/17 10:23:03 [notice] 34#34: exiting
+2021/11/17 10:23:03 [notice] 31#31: gracefully shutting down
+2021/11/17 10:23:03 [notice] 31#31: exiting
+2021/11/17 10:23:03 [notice] 32#32: exit
+2021/11/17 10:23:03 [notice] 34#34: exit
+2021/11/17 10:23:03 [notice] 31#31: exit
+2021/11/17 10:23:03 [notice] 33#33: gracefully shutting down
+2021/11/17 10:23:03 [notice] 33#33: exiting
+2021/11/17 10:23:03 [notice] 33#33: exit
+2021/11/17 10:23:03 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/11/17 10:23:03 [notice] 1#1: worker process 31 exited with code 0
+2021/11/17 10:23:03 [notice] 1#1: worker process 32 exited with code 0
+2021/11/17 10:23:03 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:23:03 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/11/17 10:23:03 [notice] 1#1: worker process 34 exited with code 0
+2021/11/17 10:23:03 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:23:03 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/11/17 10:23:03 [notice] 1#1: worker process 33 exited with code 0
+2021/11/17 10:23:03 [notice] 1#1: exit
+2021/11/17 10:25:51 [notice] 1#1: using the "epoll" event method
+2021/11/17 10:25:51 [notice] 1#1: nginx/1.20.0
+2021/11/17 10:25:51 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/11/17 10:25:51 [notice] 1#1: OS: Linux 5.11.0-40-generic
+2021/11/17 10:25:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/17 10:25:51 [notice] 1#1: start worker processes
+2021/11/17 10:25:51 [notice] 1#1: start worker process 32
+2021/11/17 10:25:51 [notice] 1#1: start worker process 33
+2021/11/17 10:25:51 [notice] 1#1: start worker process 34
+2021/11/17 10:25:51 [notice] 1#1: start worker process 35
+2021/11/17 10:29:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/17 10:29:46 [notice] 33#33: gracefully shutting down
+2021/11/17 10:29:46 [notice] 32#32: gracefully shutting down
+2021/11/17 10:29:46 [notice] 34#34: gracefully shutting down
+2021/11/17 10:29:46 [notice] 33#33: exiting
+2021/11/17 10:29:46 [notice] 32#32: exiting
+2021/11/17 10:29:46 [notice] 34#34: exiting
+2021/11/17 10:29:46 [notice] 33#33: exit
+2021/11/17 10:29:46 [notice] 34#34: exit
+2021/11/17 10:29:46 [notice] 32#32: exit
+2021/11/17 10:29:46 [notice] 35#35: gracefully shutting down
+2021/11/17 10:29:46 [notice] 35#35: exiting
+2021/11/17 10:29:46 [notice] 35#35: exit
+2021/11/17 10:29:46 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/11/17 10:29:46 [notice] 1#1: worker process 32 exited with code 0
+2021/11/17 10:29:46 [notice] 1#1: worker process 33 exited with code 0
+2021/11/17 10:29:46 [notice] 1#1: worker process 35 exited with code 0
+2021/11/17 10:29:46 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 10:29:46 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/11/17 10:29:46 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/11/17 10:29:46 [notice] 1#1: worker process 34 exited with code 0
+2021/11/17 10:29:46 [notice] 1#1: exit
+2021/11/17 10:38:44 [notice] 1#1: using the "epoll" event method
+2021/11/17 10:38:44 [notice] 1#1: nginx/1.20.0
+2021/11/17 10:38:44 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/11/17 10:38:44 [notice] 1#1: OS: Linux 5.11.0-40-generic
+2021/11/17 10:38:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/17 10:38:44 [notice] 1#1: start worker processes
+2021/11/17 10:38:44 [notice] 1#1: start worker process 33
+2021/11/17 10:38:44 [notice] 1#1: start worker process 34
+2021/11/17 10:38:44 [notice] 1#1: start worker process 35
+2021/11/17 10:38:44 [notice] 1#1: start worker process 36
+2021/11/17 12:59:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/17 12:59:04 [notice] 33#33: gracefully shutting down
+2021/11/17 12:59:04 [notice] 36#36: gracefully shutting down
+2021/11/17 12:59:04 [notice] 33#33: exiting
+2021/11/17 12:59:04 [notice] 36#36: exiting
+2021/11/17 12:59:04 [notice] 33#33: exit
+2021/11/17 12:59:04 [notice] 36#36: exit
+2021/11/17 12:59:04 [notice] 35#35: gracefully shutting down
+2021/11/17 12:59:04 [notice] 35#35: exiting
+2021/11/17 12:59:04 [notice] 35#35: exit
+2021/11/17 12:59:04 [notice] 34#34: gracefully shutting down
+2021/11/17 12:59:04 [notice] 34#34: exiting
+2021/11/17 12:59:04 [notice] 34#34: exit
+2021/11/17 12:59:04 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/11/17 12:59:04 [notice] 1#1: worker process 36 exited with code 0
+2021/11/17 12:59:04 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 12:59:04 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/11/17 12:59:04 [notice] 1#1: worker process 35 exited with code 0
+2021/11/17 12:59:04 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 12:59:04 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/11/17 12:59:04 [notice] 1#1: worker process 34 exited with code 0
+2021/11/17 12:59:04 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/17 12:59:04 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/11/17 12:59:04 [notice] 1#1: worker process 33 exited with code 0
+2021/11/17 12:59:04 [notice] 1#1: exit
+2021/11/18 08:02:37 [notice] 1#1: using the "epoll" event method
+2021/11/18 08:02:37 [notice] 1#1: nginx/1.20.0
+2021/11/18 08:02:37 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/11/18 08:02:37 [notice] 1#1: OS: Linux 5.11.0-40-generic
+2021/11/18 08:02:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/18 08:02:37 [notice] 1#1: start worker processes
+2021/11/18 08:02:37 [notice] 1#1: start worker process 32
+2021/11/18 08:02:37 [notice] 1#1: start worker process 33
+2021/11/18 08:02:37 [notice] 1#1: start worker process 34
+2021/11/18 08:02:37 [notice] 1#1: start worker process 35
+2021/11/18 12:58:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/18 12:58:14 [notice] 35#35: gracefully shutting down
+2021/11/18 12:58:14 [notice] 35#35: exiting
+2021/11/18 12:58:14 [notice] 35#35: exit
+2021/11/18 12:58:14 [notice] 32#32: gracefully shutting down
+2021/11/18 12:58:14 [notice] 32#32: exiting
+2021/11/18 12:58:14 [notice] 32#32: exit
+2021/11/18 12:58:14 [notice] 33#33: gracefully shutting down
+2021/11/18 12:58:14 [notice] 33#33: exiting
+2021/11/18 12:58:14 [notice] 33#33: exit
+2021/11/18 12:58:14 [notice] 34#34: gracefully shutting down
+2021/11/18 12:58:14 [notice] 34#34: exiting
+2021/11/18 12:58:14 [notice] 34#34: exit
+2021/11/18 12:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/11/18 12:58:14 [notice] 1#1: worker process 35 exited with code 0
+2021/11/18 12:58:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/18 12:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/11/18 12:58:14 [notice] 1#1: worker process 34 exited with code 0
+2021/11/18 12:58:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/18 12:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/11/18 12:58:14 [notice] 1#1: worker process 33 exited with code 0
+2021/11/18 12:58:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/18 12:58:14 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/11/18 12:58:14 [notice] 1#1: worker process 32 exited with code 0
+2021/11/18 12:58:14 [notice] 1#1: exit
+2021/11/19 07:56:09 [notice] 1#1: using the "epoll" event method
+2021/11/19 07:56:09 [notice] 1#1: nginx/1.20.0
+2021/11/19 07:56:09 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/11/19 07:56:09 [notice] 1#1: OS: Linux 5.11.0-40-generic
+2021/11/19 07:56:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/19 07:56:09 [notice] 1#1: start worker processes
+2021/11/19 07:56:09 [notice] 1#1: start worker process 31
+2021/11/19 07:56:09 [notice] 1#1: start worker process 32
+2021/11/19 07:56:09 [notice] 1#1: start worker process 33
+2021/11/19 07:56:09 [notice] 1#1: start worker process 34
+2021/11/19 12:52:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/19 12:52:23 [notice] 31#31: gracefully shutting down
+2021/11/19 12:52:23 [notice] 33#33: gracefully shutting down
+2021/11/19 12:52:23 [notice] 32#32: gracefully shutting down
+2021/11/19 12:52:23 [notice] 31#31: exiting
+2021/11/19 12:52:23 [notice] 33#33: exiting
+2021/11/19 12:52:23 [notice] 32#32: exiting
+2021/11/19 12:52:23 [notice] 33#33: exit
+2021/11/19 12:52:23 [notice] 31#31: exit
+2021/11/19 12:52:23 [notice] 32#32: exit
+2021/11/19 12:52:23 [notice] 34#34: gracefully shutting down
+2021/11/19 12:52:23 [notice] 34#34: exiting
+2021/11/19 12:52:23 [notice] 34#34: exit
+2021/11/19 12:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/11/19 12:52:23 [notice] 1#1: worker process 31 exited with code 0
+2021/11/19 12:52:23 [notice] 1#1: worker process 33 exited with code 0
+2021/11/19 12:52:23 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/19 12:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/11/19 12:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/11/19 12:52:23 [notice] 1#1: worker process 34 exited with code 0
+2021/11/19 12:52:23 [notice] 1#1: signal 29 (SIGIO) received
+2021/11/19 12:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/11/19 12:52:23 [notice] 1#1: worker process 32 exited with code 0
+2021/11/19 12:52:23 [notice] 1#1: exit
+2021/12/01 10:12:45 [notice] 1#1: using the "epoll" event method
+2021/12/01 10:12:45 [notice] 1#1: nginx/1.20.0
+2021/12/01 10:12:45 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/01 10:12:45 [notice] 1#1: OS: Linux 5.11.0-40-generic
+2021/12/01 10:12:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/01 10:12:45 [notice] 1#1: start worker processes
+2021/12/01 10:12:45 [notice] 1#1: start worker process 31
+2021/12/01 10:12:45 [notice] 1#1: start worker process 32
+2021/12/01 10:12:45 [notice] 1#1: start worker process 33
+2021/12/01 10:12:45 [notice] 1#1: start worker process 34
+2021/12/01 11:02:47 [error] 31#31: *21 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "nome" in /var/www/html/public/php/enviar.php on line 3PHP message: PHP Warning:  Undefined array key "email" in /var/www/html/public/php/enviar.php on line 4PHP message: PHP Warning:  Undefined array key "mensagem" in /var/www/html/public/php/enviar.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: crud_crm, request: "GET /php/enviar.php?nome=sdfsf&email=sfsdfs%40ewe.com&mensagem=wqq HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/"
+2021/12/01 11:02:49 [error] 31#31: *21 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "nome" in /var/www/html/public/php/enviar.php on line 3PHP message: PHP Warning:  Undefined array key "email" in /var/www/html/public/php/enviar.php on line 4PHP message: PHP Warning:  Undefined array key "mensagem" in /var/www/html/public/php/enviar.php on line 5" while reading response header from upstream, client: 172.18.0.1, server: crud_crm, request: "GET /php/enviar.php?nome=sdfsf&email=sfsdfs%40ewe.com&mensagem=wqq HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "localhost", referrer: "http://localhost/"
+2021/12/01 12:58:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/01 12:58:23 [notice] 31#31: gracefully shutting down
+2021/12/01 12:58:23 [notice] 32#32: gracefully shutting down
+2021/12/01 12:58:23 [notice] 34#34: gracefully shutting down
+2021/12/01 12:58:23 [notice] 31#31: exiting
+2021/12/01 12:58:23 [notice] 32#32: exiting
+2021/12/01 12:58:23 [notice] 34#34: exiting
+2021/12/01 12:58:23 [notice] 32#32: exit
+2021/12/01 12:58:23 [notice] 31#31: exit
+2021/12/01 12:58:23 [notice] 34#34: exit
+2021/12/01 12:58:23 [notice] 33#33: gracefully shutting down
+2021/12/01 12:58:23 [notice] 33#33: exiting
+2021/12/01 12:58:23 [notice] 33#33: exit
+2021/12/01 12:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/01 12:58:23 [notice] 1#1: worker process 31 exited with code 0
+2021/12/01 12:58:23 [notice] 1#1: worker process 33 exited with code 0
+2021/12/01 12:58:23 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/01 12:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/01 12:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/01 12:58:23 [notice] 1#1: worker process 32 exited with code 0
+2021/12/01 12:58:23 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/01 12:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/01 12:58:23 [notice] 1#1: worker process 34 exited with code 0
+2021/12/01 12:58:23 [notice] 1#1: exit
+2021/12/02 08:00:55 [notice] 1#1: using the "epoll" event method
+2021/12/02 08:00:55 [notice] 1#1: nginx/1.20.0
+2021/12/02 08:00:55 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/02 08:00:55 [notice] 1#1: OS: Linux 5.11.0-41-generic
+2021/12/02 08:00:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/02 08:00:55 [notice] 1#1: start worker processes
+2021/12/02 08:00:55 [notice] 1#1: start worker process 31
+2021/12/02 08:00:55 [notice] 1#1: start worker process 32
+2021/12/02 08:00:55 [notice] 1#1: start worker process 33
+2021/12/02 08:00:55 [notice] 1#1: start worker process 34
+2021/12/02 08:35:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/02 08:35:48 [notice] 31#31: gracefully shutting down
+2021/12/02 08:35:48 [notice] 31#31: exiting
+2021/12/02 08:35:48 [notice] 34#34: gracefully shutting down
+2021/12/02 08:35:48 [notice] 34#34: exiting
+2021/12/02 08:35:48 [notice] 31#31: exit
+2021/12/02 08:35:48 [notice] 34#34: exit
+2021/12/02 08:35:48 [notice] 32#32: gracefully shutting down
+2021/12/02 08:35:48 [notice] 32#32: exiting
+2021/12/02 08:35:48 [notice] 32#32: exit
+2021/12/02 08:35:48 [notice] 33#33: gracefully shutting down
+2021/12/02 08:35:48 [notice] 33#33: exiting
+2021/12/02 08:35:48 [notice] 33#33: exit
+2021/12/02 08:35:48 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/02 08:35:48 [notice] 1#1: worker process 33 exited with code 0
+2021/12/02 08:35:48 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/02 08:35:48 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/02 08:35:48 [notice] 1#1: worker process 32 exited with code 0
+2021/12/02 08:35:48 [notice] 1#1: worker process 34 exited with code 0
+2021/12/02 08:35:48 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/02 08:35:48 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/02 08:35:48 [notice] 1#1: worker process 31 exited with code 0
+2021/12/02 08:35:48 [notice] 1#1: exit
+2021/12/02 08:36:52 [notice] 1#1: using the "epoll" event method
+2021/12/02 08:36:52 [notice] 1#1: nginx/1.20.0
+2021/12/02 08:36:52 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/02 08:36:52 [notice] 1#1: OS: Linux 5.11.0-41-generic
+2021/12/02 08:36:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/02 08:36:52 [notice] 1#1: start worker processes
+2021/12/02 08:36:52 [notice] 1#1: start worker process 34
+2021/12/02 08:36:52 [notice] 1#1: start worker process 35
+2021/12/02 08:36:52 [notice] 1#1: start worker process 36
+2021/12/02 08:36:52 [notice] 1#1: start worker process 37
+2021/12/02 11:23:15 [warn] 37#37: *9 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2021/12/02 11:23:15 [warn] 37#37: *9 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /_ignition/health-check HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost", referrer: "http://localhost/"
+2021/12/02 11:42:44 [warn] 37#37: *20 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /produtos HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2021/12/02 11:43:39 [warn] 37#37: *20 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /produtos HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2021/12/02 11:58:25 [warn] 37#37: *31 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /produtos HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2021/12/02 11:58:40 [warn] 37#37: *31 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /_ignition/health-check HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost", referrer: "http://localhost/produtos"
+2021/12/02 12:58:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/02 12:58:16 [notice] 35#35: gracefully shutting down
+2021/12/02 12:58:16 [notice] 34#34: gracefully shutting down
+2021/12/02 12:58:16 [notice] 37#37: gracefully shutting down
+2021/12/02 12:58:16 [notice] 35#35: exiting
+2021/12/02 12:58:16 [notice] 34#34: exiting
+2021/12/02 12:58:16 [notice] 37#37: exiting
+2021/12/02 12:58:16 [notice] 37#37: exit
+2021/12/02 12:58:16 [notice] 35#35: exit
+2021/12/02 12:58:16 [notice] 34#34: exit
+2021/12/02 12:58:16 [notice] 36#36: gracefully shutting down
+2021/12/02 12:58:16 [notice] 36#36: exiting
+2021/12/02 12:58:16 [notice] 36#36: exit
+2021/12/02 12:58:16 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/12/02 12:58:16 [notice] 1#1: worker process 37 exited with code 0
+2021/12/02 12:58:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/02 12:58:16 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/12/02 12:58:16 [notice] 1#1: worker process 36 exited with code 0
+2021/12/02 12:58:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/02 12:58:16 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/02 12:58:16 [notice] 1#1: worker process 34 exited with code 0
+2021/12/02 12:58:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/02 12:58:16 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/02 12:58:16 [notice] 1#1: worker process 35 exited with code 0
+2021/12/02 12:58:16 [notice] 1#1: exit
+2021/12/03 08:03:24 [notice] 1#1: using the "epoll" event method
+2021/12/03 08:03:24 [notice] 1#1: nginx/1.20.0
+2021/12/03 08:03:24 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/03 08:03:24 [notice] 1#1: OS: Linux 5.11.0-41-generic
+2021/12/03 08:03:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/03 08:03:24 [notice] 1#1: start worker processes
+2021/12/03 08:03:24 [notice] 1#1: start worker process 31
+2021/12/03 08:03:24 [notice] 1#1: start worker process 32
+2021/12/03 08:03:24 [notice] 1#1: start worker process 33
+2021/12/03 08:03:24 [notice] 1#1: start worker process 34
+2021/12/03 10:42:03 [warn] 31#31: *16 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/contact"
+2021/12/03 10:49:03 [warn] 31#31: *21 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/contact"
+2021/12/03 11:06:33 [warn] 31#31: *26 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/contact"
+2021/12/03 12:55:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/03 12:55:16 [notice] 33#33: gracefully shutting down
+2021/12/03 12:55:16 [notice] 33#33: exiting
+2021/12/03 12:55:16 [notice] 33#33: exit
+2021/12/03 12:55:16 [notice] 34#34: gracefully shutting down
+2021/12/03 12:55:16 [notice] 34#34: exiting
+2021/12/03 12:55:16 [notice] 34#34: exit
+2021/12/03 12:55:16 [notice] 31#31: gracefully shutting down
+2021/12/03 12:55:16 [notice] 31#31: exiting
+2021/12/03 12:55:16 [notice] 31#31: exit
+2021/12/03 12:55:16 [notice] 32#32: gracefully shutting down
+2021/12/03 12:55:16 [notice] 32#32: exiting
+2021/12/03 12:55:16 [notice] 32#32: exit
+2021/12/03 12:55:16 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/03 12:55:16 [notice] 1#1: worker process 32 exited with code 0
+2021/12/03 12:55:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/03 12:55:16 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/03 12:55:16 [notice] 1#1: worker process 31 exited with code 0
+2021/12/03 12:55:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/03 12:55:16 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/03 12:55:16 [notice] 1#1: worker process 34 exited with code 0
+2021/12/03 12:55:16 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/03 12:55:16 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/03 12:55:16 [notice] 1#1: worker process 33 exited with code 0
+2021/12/03 12:55:16 [notice] 1#1: exit
+2021/12/06 08:03:19 [notice] 1#1: using the "epoll" event method
+2021/12/06 08:03:19 [notice] 1#1: nginx/1.20.0
+2021/12/06 08:03:19 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/06 08:03:19 [notice] 1#1: OS: Linux 5.11.0-41-generic
+2021/12/06 08:03:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/06 08:03:19 [notice] 1#1: start worker processes
+2021/12/06 08:03:19 [notice] 1#1: start worker process 30
+2021/12/06 08:03:19 [notice] 1#1: start worker process 31
+2021/12/06 08:03:19 [notice] 1#1: start worker process 32
+2021/12/06 08:03:19 [notice] 1#1: start worker process 33
+2021/12/06 13:40:26 [warn] 30#30: *133 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 13:40:47 [warn] 30#30: *133 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 13:43:01 [warn] 30#30: *138 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 13:49:04 [warn] 30#30: *148 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 13:49:59 [warn] 30#30: *148 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 13:53:34 [warn] 30#30: *156 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2021/12/06 14:20:59 [warn] 30#30: *163 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 14:22:00 [warn] 30#30: *163 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 14:22:34 [warn] 30#30: *163 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 14:27:19 [warn] 30#30: *173 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/01/0000000010 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 14:31:40 [warn] 30#30: *176 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/01/0000000011 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 14:31:44 [warn] 30#30: *176 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/01/0000000012 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 14:35:43 [warn] 30#30: *181 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/01/0000000013 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 14:35:59 [warn] 30#30: *181 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/01/0000000014 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 14:57:00 [warn] 30#30: *219 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/01/0000000015 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2021/12/06 14:57:26 [warn] 30#30: *219 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/01/0000000016 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 15:13:08 [warn] 30#30: *228 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/01/0000000017 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/"
+2021/12/06 15:15:38 [warn] 30#30: *243 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/01/0000000018 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2021/12/06 15:20:36 [warn] 30#30: *248 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/01/0000000019 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2021/12/06 15:20:37 [warn] 30#30: *248 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/02/0000000020 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2021/12/06 15:21:47 [warn] 30#30: *253 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/02/0000000021 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost"
+2021/12/06 15:54:54 [warn] 30#30: *286 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/02/0000000022 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 16:05:32 [warn] 30#30: *298 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 16:05:48 [warn] 30#30: *298 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 16:06:01 [warn] 30#30: *298 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 16:06:46 [warn] 30#30: *298 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 16:09:08 [warn] 30#30: *298 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 16:18:13 [warn] 30#30: *319 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 16:42:41 [warn] 30#30: *339 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 17:05:14 [warn] 30#30: *358 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 17:22:30 [warn] 30#30: *367 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000031, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/06 17:37:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/06 17:37:42 [notice] 31#31: gracefully shutting down
+2021/12/06 17:37:42 [notice] 31#31: exiting
+2021/12/06 17:37:42 [notice] 31#31: exit
+2021/12/06 17:37:42 [notice] 30#30: gracefully shutting down
+2021/12/06 17:37:42 [notice] 30#30: exiting
+2021/12/06 17:37:42 [notice] 32#32: gracefully shutting down
+2021/12/06 17:37:42 [notice] 32#32: exiting
+2021/12/06 17:37:42 [notice] 30#30: exit
+2021/12/06 17:37:42 [notice] 32#32: exit
+2021/12/06 17:37:42 [notice] 33#33: gracefully shutting down
+2021/12/06 17:37:42 [notice] 33#33: exiting
+2021/12/06 17:37:42 [notice] 33#33: exit
+2021/12/06 17:37:42 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/06 17:37:42 [notice] 1#1: worker process 33 exited with code 0
+2021/12/06 17:37:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/06 17:37:42 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/06 17:37:42 [notice] 1#1: worker process 32 exited with code 0
+2021/12/06 17:37:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/06 17:37:42 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/06 17:37:42 [notice] 1#1: worker process 31 exited with code 0
+2021/12/06 17:37:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/06 17:37:42 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2021/12/06 17:37:42 [notice] 1#1: worker process 30 exited with code 0
+2021/12/06 17:37:42 [notice] 1#1: exit
+2021/12/07 08:02:47 [notice] 1#1: using the "epoll" event method
+2021/12/07 08:02:47 [notice] 1#1: nginx/1.20.0
+2021/12/07 08:02:47 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/07 08:02:47 [notice] 1#1: OS: Linux 5.11.0-41-generic
+2021/12/07 08:02:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/07 08:02:47 [notice] 1#1: start worker processes
+2021/12/07 08:02:47 [notice] 1#1: start worker process 32
+2021/12/07 08:02:47 [notice] 1#1: start worker process 33
+2021/12/07 08:02:47 [notice] 1#1: start worker process 34
+2021/12/07 08:02:47 [notice] 1#1: start worker process 35
+2021/12/07 10:05:42 [warn] 32#32: *34 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.18.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/07 11:19:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/07 11:19:10 [notice] 35#35: gracefully shutting down
+2021/12/07 11:19:10 [notice] 33#33: gracefully shutting down
+2021/12/07 11:19:10 [notice] 32#32: gracefully shutting down
+2021/12/07 11:19:10 [notice] 35#35: exiting
+2021/12/07 11:19:10 [notice] 33#33: exiting
+2021/12/07 11:19:10 [notice] 32#32: exiting
+2021/12/07 11:19:10 [notice] 35#35: exit
+2021/12/07 11:19:10 [notice] 33#33: exit
+2021/12/07 11:19:10 [notice] 32#32: exit
+2021/12/07 11:19:10 [notice] 34#34: gracefully shutting down
+2021/12/07 11:19:10 [notice] 34#34: exiting
+2021/12/07 11:19:10 [notice] 34#34: exit
+2021/12/07 11:19:10 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/07 11:19:10 [notice] 1#1: worker process 33 exited with code 0
+2021/12/07 11:19:10 [notice] 1#1: worker process 34 exited with code 0
+2021/12/07 11:19:10 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/07 11:19:10 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/07 11:19:10 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/07 11:19:10 [notice] 1#1: worker process 32 exited with code 0
+2021/12/07 11:19:10 [notice] 1#1: worker process 35 exited with code 0
+2021/12/07 11:19:10 [notice] 1#1: exit
+2021/12/07 11:26:41 [notice] 1#1: using the "epoll" event method
+2021/12/07 11:26:41 [notice] 1#1: nginx/1.20.0
+2021/12/07 11:26:41 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/07 11:26:41 [notice] 1#1: OS: Linux 5.11.0-41-generic
+2021/12/07 11:26:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/07 11:26:41 [notice] 1#1: start worker processes
+2021/12/07 11:26:41 [notice] 1#1: start worker process 31
+2021/12/07 11:26:41 [notice] 1#1: start worker process 32
+2021/12/07 11:26:41 [notice] 1#1: start worker process 33
+2021/12/07 11:26:41 [notice] 1#1: start worker process 34
+2021/12/07 11:27:07 [warn] 31#31: *1 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /register HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/12/07 11:30:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/07 11:30:03 [notice] 31#31: gracefully shutting down
+2021/12/07 11:30:03 [notice] 32#32: gracefully shutting down
+2021/12/07 11:30:03 [notice] 31#31: exiting
+2021/12/07 11:30:03 [notice] 32#32: exiting
+2021/12/07 11:30:03 [notice] 31#31: exit
+2021/12/07 11:30:03 [notice] 32#32: exit
+2021/12/07 11:30:03 [notice] 33#33: gracefully shutting down
+2021/12/07 11:30:03 [notice] 34#34: gracefully shutting down
+2021/12/07 11:30:03 [notice] 33#33: exiting
+2021/12/07 11:30:03 [notice] 34#34: exiting
+2021/12/07 11:30:03 [notice] 33#33: exit
+2021/12/07 11:30:03 [notice] 34#34: exit
+2021/12/07 11:30:03 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/07 11:30:03 [notice] 1#1: worker process 32 exited with code 0
+2021/12/07 11:30:03 [notice] 1#1: worker process 33 exited with code 0
+2021/12/07 11:30:03 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/07 11:30:03 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/07 11:30:03 [notice] 1#1: worker process 34 exited with code 0
+2021/12/07 11:30:03 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/07 11:30:03 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/07 11:30:03 [notice] 1#1: worker process 31 exited with code 0
+2021/12/07 11:30:03 [notice] 1#1: exit
+2021/12/07 11:30:16 [notice] 1#1: using the "epoll" event method
+2021/12/07 11:30:16 [notice] 1#1: nginx/1.20.0
+2021/12/07 11:30:16 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/07 11:30:16 [notice] 1#1: OS: Linux 5.11.0-41-generic
+2021/12/07 11:30:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/07 11:30:16 [notice] 1#1: start worker processes
+2021/12/07 11:30:16 [notice] 1#1: start worker process 33
+2021/12/07 11:30:16 [notice] 1#1: start worker process 34
+2021/12/07 11:30:16 [notice] 1#1: start worker process 35
+2021/12/07 11:30:16 [notice] 1#1: start worker process 36
+2021/12/07 11:30:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/07 11:30:38 [notice] 34#34: gracefully shutting down
+2021/12/07 11:30:38 [notice] 35#35: gracefully shutting down
+2021/12/07 11:30:38 [notice] 36#36: gracefully shutting down
+2021/12/07 11:30:38 [notice] 34#34: exiting
+2021/12/07 11:30:38 [notice] 36#36: exiting
+2021/12/07 11:30:38 [notice] 35#35: exiting
+2021/12/07 11:30:38 [notice] 34#34: exit
+2021/12/07 11:30:38 [notice] 36#36: exit
+2021/12/07 11:30:38 [notice] 35#35: exit
+2021/12/07 11:30:38 [notice] 33#33: gracefully shutting down
+2021/12/07 11:30:38 [notice] 33#33: exiting
+2021/12/07 11:30:38 [notice] 33#33: exit
+2021/12/07 11:30:38 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/12/07 11:30:38 [notice] 1#1: worker process 34 exited with code 0
+2021/12/07 11:30:38 [notice] 1#1: worker process 36 exited with code 0
+2021/12/07 11:30:38 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/07 11:30:38 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/12/07 11:30:38 [notice] 1#1: worker process 33 exited with code 0
+2021/12/07 11:30:38 [notice] 1#1: worker process 35 exited with code 0
+2021/12/07 11:30:38 [notice] 1#1: exit
+2021/12/07 11:37:19 [notice] 1#1: using the "epoll" event method
+2021/12/07 11:37:19 [notice] 1#1: nginx/1.20.0
+2021/12/07 11:37:19 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/07 11:37:19 [notice] 1#1: OS: Linux 5.11.0-41-generic
+2021/12/07 11:37:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/07 11:37:19 [notice] 1#1: start worker processes
+2021/12/07 11:37:19 [notice] 1#1: start worker process 31
+2021/12/07 11:37:19 [notice] 1#1: start worker process 32
+2021/12/07 11:37:19 [notice] 1#1: start worker process 33
+2021/12/07 11:37:19 [notice] 1#1: start worker process 34
+2021/12/07 13:53:46 [warn] 31#31: *77 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/07 14:24:53 [warn] 31#31: *100 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.19.0.1, server: crud_crm, request: "GET /dashboard HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost", referrer: "http://localhost/"
+2021/12/07 14:44:36 [warn] 31#31: *150 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/07 14:58:13 [warn] 31#31: *165 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.19.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/07 14:58:25 [warn] 31#31: *165 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.19.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/07 16:03:20 [warn] 31#31: *192 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 172.19.0.1, server: crud_crm, request: "GET /events/edit/4 HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost", referrer: "http://localhost/dashboard"
+2021/12/07 16:07:22 [warn] 31#31: *209 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.19.0.1, server: crud_crm, request: "POST /events/update/4 HTTP/1.1", host: "localhost", referrer: "http://localhost/events/edit/4"
+2021/12/07 16:10:13 [warn] 31#31: *214 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.19.0.1, server: crud_crm, request: "POST /events/update/4 HTTP/1.1", host: "localhost", referrer: "http://localhost/events/edit/4"
+2021/12/07 16:10:34 [warn] 31#31: *222 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.19.0.1, server: crud_crm, request: "POST /events/update/4 HTTP/1.1", host: "localhost", referrer: "http://localhost/events/edit/4"
+2021/12/07 16:49:04 [warn] 31#31: *240 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.19.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/07 16:53:23 [warn] 31#31: *269 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/01/0000000011 while reading upstream, client: 172.19.0.1, server: crud_crm, request: "GET /events/2 HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost", referrer: "http://localhost/"
+2021/12/07 17:03:17 [warn] 31#31: *286 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.19.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/07 17:03:27 [warn] 31#31: *286 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.19.0.1, server: crud_crm, request: "POST /events HTTP/1.1", host: "localhost", referrer: "http://localhost/events/create"
+2021/12/07 17:33:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/07 17:33:50 [notice] 31#31: gracefully shutting down
+2021/12/07 17:33:50 [notice] 32#32: gracefully shutting down
+2021/12/07 17:33:50 [notice] 31#31: exiting
+2021/12/07 17:33:50 [notice] 32#32: exiting
+2021/12/07 17:33:50 [notice] 31#31: exit
+2021/12/07 17:33:50 [notice] 32#32: exit
+2021/12/07 17:33:50 [notice] 34#34: gracefully shutting down
+2021/12/07 17:33:50 [notice] 34#34: exiting
+2021/12/07 17:33:50 [notice] 34#34: exit
+2021/12/07 17:33:50 [notice] 33#33: gracefully shutting down
+2021/12/07 17:33:50 [notice] 33#33: exiting
+2021/12/07 17:33:50 [notice] 33#33: exit
+2021/12/07 17:33:50 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/07 17:33:50 [notice] 1#1: worker process 34 exited with code 0
+2021/12/07 17:33:50 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/07 17:33:50 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/07 17:33:50 [notice] 1#1: worker process 32 exited with code 0
+2021/12/07 17:33:50 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/07 17:33:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/07 17:33:50 [notice] 1#1: worker process 33 exited with code 0
+2021/12/07 17:33:50 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/07 17:33:50 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/07 17:33:50 [notice] 1#1: worker process 31 exited with code 0
+2021/12/07 17:33:50 [notice] 1#1: exit
+2021/12/08 08:02:38 [notice] 1#1: using the "epoll" event method
+2021/12/08 08:02:38 [notice] 1#1: nginx/1.20.0
+2021/12/08 08:02:38 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/12/08 08:02:38 [notice] 1#1: OS: Linux 5.11.0-41-generic
+2021/12/08 08:02:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/08 08:02:38 [notice] 1#1: start worker processes
+2021/12/08 08:02:38 [notice] 1#1: start worker process 31
+2021/12/08 08:02:38 [notice] 1#1: start worker process 32
+2021/12/08 08:02:38 [notice] 1#1: start worker process 33
+2021/12/08 08:02:38 [notice] 1#1: start worker process 34
+2021/12/08 08:33:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/08 08:33:18 [notice] 32#32: gracefully shutting down
+2021/12/08 08:33:18 [notice] 33#33: gracefully shutting down
+2021/12/08 08:33:18 [notice] 32#32: exiting
+2021/12/08 08:33:18 [notice] 33#33: exiting
+2021/12/08 08:33:18 [notice] 33#33: exit
+2021/12/08 08:33:18 [notice] 32#32: exit
+2021/12/08 08:33:18 [notice] 34#34: gracefully shutting down
+2021/12/08 08:33:18 [notice] 31#31: gracefully shutting down
+2021/12/08 08:33:18 [notice] 34#34: exiting
+2021/12/08 08:33:18 [notice] 31#31: exiting
+2021/12/08 08:33:18 [notice] 34#34: exit
+2021/12/08 08:33:18 [notice] 31#31: exit
+2021/12/08 08:33:18 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/12/08 08:33:18 [notice] 1#1: worker process 33 exited with code 0
+2021/12/08 08:33:18 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/08 08:33:18 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/12/08 08:33:18 [notice] 1#1: worker process 34 exited with code 0
+2021/12/08 08:33:18 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/08 08:33:18 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/12/08 08:33:18 [notice] 1#1: worker process 32 exited with code 0
+2021/12/08 08:33:18 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/08 08:33:18 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/12/08 08:33:18 [notice] 1#1: worker process 31 exited with code 0
+2021/12/08 08:33:18 [notice] 1#1: exit
+2022/01/12 14:31:46 [notice] 1#1: using the "epoll" event method
+2022/01/12 14:31:46 [notice] 1#1: nginx/1.20.0
+2022/01/12 14:31:46 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/01/12 14:31:46 [notice] 1#1: OS: Linux 5.11.0-46-generic
+2022/01/12 14:31:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/12 14:31:46 [notice] 1#1: start worker processes
+2022/01/12 14:31:46 [notice] 1#1: start worker process 30
+2022/01/12 14:31:46 [notice] 1#1: start worker process 31
+2022/01/12 14:31:46 [notice] 1#1: start worker process 32
+2022/01/12 14:31:46 [notice] 1#1: start worker process 33
+2022/01/12 14:31:57 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.5:9000", host: "localhost"
+2022/01/12 14:32:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/12 14:32:32 [notice] 30#30: gracefully shutting down
+2022/01/12 14:32:32 [notice] 31#31: gracefully shutting down
+2022/01/12 14:32:32 [notice] 33#33: gracefully shutting down
+2022/01/12 14:32:32 [notice] 31#31: exiting
+2022/01/12 14:32:32 [notice] 33#33: exiting
+2022/01/12 14:32:32 [notice] 30#30: exiting
+2022/01/12 14:32:32 [notice] 31#31: exit
+2022/01/12 14:32:32 [notice] 33#33: exit
+2022/01/12 14:32:32 [notice] 30#30: exit
+2022/01/12 14:32:32 [notice] 32#32: gracefully shutting down
+2022/01/12 14:32:32 [notice] 32#32: exiting
+2022/01/12 14:32:32 [notice] 32#32: exit
+2022/01/12 14:32:32 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/01/12 14:32:32 [notice] 1#1: worker process 31 exited with code 0
+2022/01/12 14:32:32 [notice] 1#1: worker process 32 exited with code 0
+2022/01/12 14:32:32 [notice] 1#1: worker process 33 exited with code 0
+2022/01/12 14:32:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/12 14:32:32 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/01/12 14:32:32 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/01/12 14:32:32 [notice] 1#1: worker process 30 exited with code 0
+2022/01/12 14:32:32 [notice] 1#1: exit
+2022/01/12 14:32:37 [notice] 1#1: using the "epoll" event method
+2022/01/12 14:32:37 [notice] 1#1: nginx/1.20.0
+2022/01/12 14:32:37 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/01/12 14:32:37 [notice] 1#1: OS: Linux 5.11.0-46-generic
+2022/01/12 14:32:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/12 14:32:37 [notice] 1#1: start worker processes
+2022/01/12 14:32:37 [notice] 1#1: start worker process 32
+2022/01/12 14:32:37 [notice] 1#1: start worker process 33
+2022/01/12 14:32:37 [notice] 1#1: start worker process 34
+2022/01/12 14:32:37 [notice] 1#1: start worker process 35
+2022/01/12 14:32:39 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:32:40 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:32:41 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:32:41 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:32:41 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:32:41 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:32:41 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:32:42 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:32:48 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:33:13 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:33:40 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:33:44 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 14:34:29 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.19.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 15:25:10 [warn] 32#32: *24 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.19.0.1, server: crud_crm, request: "GET /api HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 15:49:22 [warn] 32#32: *34 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.19.0.1, server: crud_crm, request: "GET /api HTTP/1.1", upstream: "fastcgi://172.19.0.4:9000", host: "localhost"
+2022/01/12 17:24:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/12 17:24:29 [notice] 33#33: gracefully shutting down
+2022/01/12 17:24:29 [notice] 35#35: gracefully shutting down
+2022/01/12 17:24:29 [notice] 33#33: exiting
+2022/01/12 17:24:29 [notice] 35#35: exiting
+2022/01/12 17:24:29 [notice] 33#33: exit
+2022/01/12 17:24:29 [notice] 35#35: exit
+2022/01/12 17:24:29 [notice] 34#34: gracefully shutting down
+2022/01/12 17:24:29 [notice] 34#34: exiting
+2022/01/12 17:24:29 [notice] 34#34: exit
+2022/01/12 17:24:29 [notice] 32#32: gracefully shutting down
+2022/01/12 17:24:29 [notice] 32#32: exiting
+2022/01/12 17:24:29 [notice] 32#32: exit
+2022/01/12 17:24:29 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/01/12 17:24:29 [notice] 1#1: worker process 33 exited with code 0
+2022/01/12 17:24:29 [notice] 1#1: worker process 34 exited with code 0
+2022/01/12 17:24:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/12 17:24:29 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/01/12 17:24:29 [notice] 1#1: worker process 32 exited with code 0
+2022/01/12 17:24:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/12 17:24:29 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/01/12 17:24:29 [notice] 1#1: worker process 35 exited with code 0
+2022/01/12 17:24:29 [notice] 1#1: exit
+2022/01/13 08:07:16 [notice] 1#1: using the "epoll" event method
+2022/01/13 08:07:16 [notice] 1#1: nginx/1.20.0
+2022/01/13 08:07:16 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/01/13 08:07:16 [notice] 1#1: OS: Linux 5.11.0-46-generic
+2022/01/13 08:07:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/13 08:07:16 [notice] 1#1: start worker processes
+2022/01/13 08:07:16 [notice] 1#1: start worker process 32
+2022/01/13 08:07:16 [notice] 1#1: start worker process 33
+2022/01/13 08:07:16 [notice] 1#1: start worker process 34
+2022/01/13 08:07:16 [notice] 1#1: start worker process 35
+2022/01/13 08:58:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/01/13 08:58:23 [notice] 32#32: gracefully shutting down
+2022/01/13 08:58:23 [notice] 32#32: exiting
+2022/01/13 08:58:23 [notice] 34#34: gracefully shutting down
+2022/01/13 08:58:23 [notice] 33#33: gracefully shutting down
+2022/01/13 08:58:23 [notice] 34#34: exiting
+2022/01/13 08:58:23 [notice] 33#33: exiting
+2022/01/13 08:58:23 [notice] 32#32: exit
+2022/01/13 08:58:23 [notice] 33#33: exit
+2022/01/13 08:58:23 [notice] 34#34: exit
+2022/01/13 08:58:23 [notice] 35#35: gracefully shutting down
+2022/01/13 08:58:23 [notice] 35#35: exiting
+2022/01/13 08:58:23 [notice] 35#35: exit
+2022/01/13 08:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/01/13 08:58:23 [notice] 1#1: worker process 32 exited with code 0
+2022/01/13 08:58:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/13 08:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2022/01/13 08:58:23 [notice] 1#1: worker process 34 exited with code 0
+2022/01/13 08:58:23 [notice] 1#1: worker process 35 exited with code 0
+2022/01/13 08:58:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/13 08:58:23 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/01/13 08:58:23 [notice] 1#1: worker process 33 exited with code 0
+2022/01/13 08:58:23 [notice] 1#1: exit
+2022/01/13 10:59:33 [notice] 1#1: using the "epoll" event method
+2022/01/13 10:59:33 [notice] 1#1: nginx/1.20.0
+2022/01/13 10:59:33 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2022/01/13 10:59:33 [notice] 1#1: OS: Linux 5.11.0-46-generic
+2022/01/13 10:59:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/13 10:59:33 [notice] 1#1: start worker processes
+2022/01/13 10:59:33 [notice] 1#1: start worker process 31
+2022/01/13 10:59:33 [notice] 1#1: start worker process 32
+2022/01/13 10:59:33 [notice] 1#1: start worker process 33
+2022/01/13 10:59:33 [notice] 1#1: start worker process 34
+2022/01/13 11:00:58 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 34PHP message: PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 34" while reading response header from upstream, client: 172.18.0.1, server: crud_crm, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/01/14 08:39:02 [warn] 33#33: *190 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /api/update/4 HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/01/14 09:01:22 [warn] 31#31: *216 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /api/update/4 HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2022/01/14 09:01:36 [warn] 31#31: *216 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 172.18.0.1, server: crud_crm, request: "GET /api/editar/4 HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
